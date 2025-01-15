@@ -46,7 +46,7 @@ python3 -m pip install -r requirements.txt
 
 3. Run the tool:
 ```bash
-python3 old.py
+python3 wa.py
 ```
 
 ### For Windows
@@ -59,10 +59,10 @@ python3 old.py
 2. Install FFmpeg:
    - Download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html)
    - Extract the zip file
-   - Add FFmpeg's bin folder to System PATH:
+   - Add FFmpeg's bin fwaer to System PATH:
      - Right-click Computer → Properties → Advanced System Settings
      - Environment Variables → System Variables → Path → Edit
-     - Add the path to FFmpeg's bin folder
+     - Add the path to FFmpeg's bin fwaer
      - Click OK on all windows
 
 3. Install eSpeak:
@@ -81,7 +81,7 @@ python3 old.py
 
 5. Run the tool:
    ```cmd
-   python old.py
+   python wa.py
    ```
 
 ### Verifying Installation
@@ -121,7 +121,7 @@ espeak "Hello World"  # Should speak the text
 1. Permission denied:
    ```bash
    sudo chown -R $USER:$USER .
-   sudo chmod +x old.py
+   sudo chmod +x wa.py
    ```
 
 2. pip installation fails:
@@ -167,10 +167,10 @@ espeak "Hello World"  # Should speak the text
 1. Start the tool:
 ```bash
 # Linux
-python3 old.py
+python3 wa.py
 
 # Windows
-python old.py
+python wa.py
 ```
 
 2. First-time setup:
