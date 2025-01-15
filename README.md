@@ -73,7 +73,7 @@ python3 old.py
 4. Clone and setup:
    ```cmd
    # Open Command Prompt as Administrator
-   git clone https://github.com/yourusername/whatsapp-automation-tool.git
+   git clone https://github.com/ishaq2321/WA_automation.git
    cd whatsapp-automation-tool
    pip install --upgrade pip
    pip install -r requirements.txt
